@@ -50,12 +50,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoinChanger_FSharp.cs" />
     <Compile Include="CoinChanger_Funktional_mit_Fold_Tests.cs" />
     <Compile Include="CoinChanger_Schleife_Tests.cs" />
     <Compile Include="CoinChanger_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CoinKata.FSharp\CoinKata.FSharp.fsproj">
+      <Project>{4c2b5553-b275-48a7-9364-2cd45ad825da}</Project>
+      <Name>CoinKata.FSharp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CoinKata\CoinKata.csproj">
       <Project>{6692ba32-4ce3-4b9e-a752-c8e9eec0ae96}</Project>
       <Name>CoinKata</Name>
