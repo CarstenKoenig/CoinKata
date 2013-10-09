@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinKata", "CoinKata\CoinKa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinKata.Tests", "CoinKata.Tests\CoinKata.Tests.csproj", "{76064700-D637-48F5-9CB1-05E9891F0360}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CoinKata.FSharp", "CoinKata.FSharp\CoinKata.FSharp.fsproj", "{4C2B5553-B275-48A7-9364-2CD45AD825DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{76064700-D637-48F5-9CB1-05E9891F0360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76064700-D637-48F5-9CB1-05E9891F0360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76064700-D637-48F5-9CB1-05E9891F0360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2B5553-B275-48A7-9364-2CD45AD825DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2B5553-B275-48A7-9364-2CD45AD825DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2B5553-B275-48A7-9364-2CD45AD825DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2B5553-B275-48A7-9364-2CD45AD825DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
