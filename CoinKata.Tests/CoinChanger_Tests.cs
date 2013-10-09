@@ -7,7 +7,7 @@ namespace CoinKata.Tests
         where tImplementierung : ICoinChanger, new ()
     {
 
-        [Property]
+        [Property(MaxTest = 500)]
         public bool BerechneWechselgeld_liefert_den_geforderten_Betrag(FsCheck.NonNegativeInt betrag)
         {
             var münzen = new[] { 1, 2, 5, 10, 20, 50, 100, 200 };

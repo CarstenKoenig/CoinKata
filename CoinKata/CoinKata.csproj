@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CoinChanger_Funktional_mit_Fold.cs" />
+    <Compile Include="CoinChanger_mutable_Map.cs" />
+    <Compile Include="CoinChanger_mutable_ParallelMap.cs" />
     <Compile Include="CoinChanger_Schleife.cs" />
     <Compile Include="ICoinChanger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
