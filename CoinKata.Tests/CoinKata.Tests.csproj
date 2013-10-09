@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6692BA32-4CE3-4B9E-A752-C8E9EEC0AE96}</ProjectGuid>
+    <ProjectGuid>{76064700-D637-48F5-9CB1-05E9891F0360}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CoinKata</RootNamespace>
-    <AssemblyName>CoinKata</AssemblyName>
+    <RootNamespace>CoinKata.Tests</RootNamespace>
+    <AssemblyName>CoinKata.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,10 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FsCheck">
+    <Reference Include="FsCheck, Version=0.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\FsCheck.0.9.1.0\lib\net40-Client\FsCheck.dll</HintPath>
     </Reference>
-    <Reference Include="FsCheck.Xunit">
+    <Reference Include="FsCheck.Xunit, Version=0.4.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\FsCheck.Xunit.0.4.0.1\lib\net40-Client\FsCheck.Xunit.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -48,11 +50,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoinChanger_Funktional_mit_Fold.cs" />
-    <Compile Include="CoinChanger_Schleife.cs" />
-    <Compile Include="ICoinChanger.cs" />
+    <Compile Include="CoinChanger_Funktional_mit_Fold_Tests.cs" />
+    <Compile Include="CoinChanger_Schleife_Tests.cs" />
+    <Compile Include="CoinChanger_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoinKata\CoinKata.csproj">
+      <Project>{6692ba32-4ce3-4b9e-a752-c8e9eec0ae96}</Project>
+      <Name>CoinKata</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
