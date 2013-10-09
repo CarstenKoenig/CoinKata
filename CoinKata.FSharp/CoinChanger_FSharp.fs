@@ -18,7 +18,8 @@ type CoinChanger_FSharp() =
 
     let berechneWechselgeld münzen betrag =
         let initial = ([], betrag)
-        münzen |> Seq.fold ausgabeUndRestbetragFürMünze initial
+        münzen |> Seq.sortBy (fun m -> -m)
+               |> Seq.fold ausgabeUndRestbetragFürMünze initial
                |> fst
 
     interface ICoinChanger with

@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentAssertions">
+      <HintPath>..\packages\FluentAssertions.2.1.0.0\lib\net40\FluentAssertions.dll</HintPath>
+    </Reference>
     <Reference Include="FsCheck, Version=0.9.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\FsCheck.0.9.1.0\lib\net40-Client\FsCheck.dll</HintPath>
@@ -56,6 +59,7 @@
     <Compile Include="CoinChanger_mutable_ParallelMap_Tests.cs" />
     <Compile Include="CoinChanger_Schleife_Tests.cs" />
     <Compile Include="CoinChanger_Tests.cs" />
+    <Compile Include="GeldErweiterungen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
