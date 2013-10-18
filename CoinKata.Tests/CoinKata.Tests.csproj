@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoinChanger_BruteForce_Tests.cs" />
     <Compile Include="CoinChanger_FSharp.cs" />
     <Compile Include="CoinChanger_Funktional_mit_Fold_Tests.cs" />
     <Compile Include="CoinChanger_mutable_Map_Tests.cs" />
