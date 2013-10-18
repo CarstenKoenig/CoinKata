@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinKata", "CoinKata\CoinKata.csproj", "{6692BA32-4CE3-4B9E-A752-C8E9EEC0AE96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinKata.Tests", "CoinKata.Tests\CoinKata.Tests.csproj", "{76064700-D637-48F5-9CB1-05E9891F0360}"
